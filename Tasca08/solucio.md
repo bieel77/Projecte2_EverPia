@@ -159,3 +159,4 @@ El domini `.gg` reforça la identitat gamer del projecte i és fàcilment recone
 La combinació **Hostilink + mataroesports.gg** ofereix una solució tècnica adaptada a les necessitats d’un club d’eSports: suport per streaming, estabilitat, marca gamer i cost competitiu.  
 És una base sòlida per créixer en trànsit i notorietat digital durant el primer any d’activitat.
 
+[Torna a l'enunciat](README.md)

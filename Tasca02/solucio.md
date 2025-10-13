@@ -4,6 +4,8 @@
 
 ## Informe tècnic: selecció de SAI per a TecnoGestió S.L
 
+![imatge](img/castor.png)
+
 **Nom:** Biel Pérez Alonso  
 **Curs:** 2B  
 **Mòdul:** Seguretat Informàtica  
@@ -24,14 +26,11 @@
 
 ## Descripció del cas
 
-L’empresa **TecnoGestió S.L.**, dedicada a la **gestió documental i assessorament informàtic**, té un petit despatx amb:
-- 4 ordinadors de sobretaula  
-- Una impressora-fotocopiadora multifunció  
-- Un router d’accés a Internet  
+L’empresa **TecnoGestió S.L.**, dedicada a la gestió documental i assessorament informàtic, té un petit despatx amb **4 ordinadors de sobretaula**, una **impressora-fotocopiadora multifunció** (similar a les que té l’escola) i un **router d’accés a Internet**.  
 
-Davant les constants incidències amb el subministrament elèctric a la zona, la direcció ha decidit **adquirir un SAI** per garantir la continuïtat del servei i protegir els equips.
+Davant les constants incidències amb el subministrament elèctric a la zona, la direcció ha decidit adquirir un **SAI** per garantir la continuïtat del servei i protegir els equips.
 
-L’empresa on es fa l’estada ha encarregat **l’estudi i la tria del SAI** més adequat.
+
 
 ---
 

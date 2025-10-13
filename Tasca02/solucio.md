@@ -30,9 +30,9 @@ L’empresa **TecnoGestió S.L.**, dedicada a la gestió documental i assessoram
 
 Davant les constants incidències amb el subministrament elèctric a la zona, la direcció ha decidit adquirir un **SAI** per garantir la continuïtat del servei i protegir els equips.
 
+![imatge](img/mlp.png)
 
-
----
+S’han posat en contacte amb l’empresa on esteu fent l’estada i el vostre responsable us ha encarregat que en feu l’estudi i tria del SAI.
 
 ## 1. Inventari d’equips
 

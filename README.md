@@ -5,4 +5,4 @@ Benvinguts a EverPia, una consultora IT que té com a missió resoldre els repte
 
 - [Tasca02](Tasca02)
 
-![imagen](Tasca02/img/mlp.png)
+

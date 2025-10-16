@@ -1,1 +1,75 @@
+# Descripció de l’encàrrec
+
+Després de la primera feina exitosa, us arriba un encàrrec urgent que obliga a que us hi poseu per donar-li solució.  
+Com a fase prèvia rebreu una formació sobre la seguretat lògica que us permetrà tenir els coneixements necessaris per afrontar la tasca.
+
+Han arribat a la consultora un equip provinent d’un client que demana que els hi solucionem el problema. Tenen un portàtil amb **Zorin OS** (un Linux amb entorn gràfic) que usava habitualment un directiu. El problema és que ha oblidat la contrasenya i és necessari poder recuperar l’accés perquè hi ha documentació molt important que cal recuperar. Per evitar que una acció catastròfica pugui danyar l’equip original, ens han clonat el disc en un disc virtual perquè hi treballeu.
+
+---
+
+# Objectiu
+
+1. Crear una màquina virtual i connectar-hi el disc clonado.
+2. Entrar a la màquina virtual, identificar l’usuari existent i assignar-li una nova contrasenya per recuperar l’accés.
+3. Investigar i implementar mesures per fortificar l’accés al **GRUB** perquè l’accés no pugui ser reiniciat amb el procediment anterior.
+4. Documentar tot el procediment (incloent imatges) per pujar-lo al repositori.
+
+---
+
+# Entorn i condicions
+
+- Sistema d’origen: Portàtil amb **Zorin OS**.
+- Treball sobre còpia: S’ha proporcionat una **clonació del disc** en format virtual per evitar riscos sobre l’equip físic.
+- Requisit formatiu: Rebreu una formació sobre seguretat lògica abans d’iniciar la intervenció.
+
+---
+
+# Procediment general
+
+1. Crear una màquina virtual (VM) i afegir-hi el disc clonat com a disc primari.
+2. Arrencar la VM i, si cal, utilitzar mètodes de recuperació per accedir al sistema de fitxers.
+3. Identificar el nom d’usuari existent al sistema.
+4. Canviar la contrasenya de l’usuari (per exemple amb `passwd` des d’un entorn root o chroot) i verificar l’accés.
+5. Investigar i aplicar mesures per protegir l’accés al **GRUB** (per exemple: afegir contrasenya a GRUB, restringir permisos del fitxer de configuració, protegir UEFI/BIOS, xifrar particions).
+6. Configurar la VM per tal de fortificar l’accés al GRUB segons les mesures seleccionades.
+7. Documentar tot el procés amb captures d’imatge i passos detallats per pujar al repositori.
+
+---
+
+# Procediment individual (tasques concretes)
+
+- **Vulnereu l’accés al GRUB del Linux.**  
+  *(Accions realitzades per poder accedir al sistema i recuperar l’usuari; fer-ho sobre la còpia virtualitzada.)*
+
+- **Identifiqueu l’usuari del sistema.**
+
+- **Modifiqueu la contrasenya de l’usuari i verifiqueu que ara ja té accés.**
+
+- **Investigueu com es pot fortificar l’accés al GRUB.**  
+  És molt important que **indiqueu les fonts d’informació** que useu per la investigació.
+
+- **Configura la màquina virtual per tal de fortificar l’accés al GRUB.**
+
+- **Documenteu el procediment en un document (cal incloure imatges)** per posteriorment pujar-lo al vostre repositori.
+
+---
+
+# Entregables
+
+1. **Màquina virtual** amb el disc clonat i les configuracions de seguretat aplicades.
+2. **Document** (format README / tutorial) amb:
+   - Passos seguits per recuperar l’accés.
+   - Comprovació que l’usuari pot iniciar sessió amb la nova contrasenya.
+   - Mesures de fortificació del GRUB aplicades i justificació.
+   - Captures d’imatge il·lustratives de tot el procés.
+   - Llista de fonts i referències utilitzades.
+3. **Fitxer** o enllaç al repositori on s’ha pujat la documentació.
+
+---
+
+# Notes i consideracions
+
+- Totes les proves s’han de fer **exclusivament sobre la còpia virtual** del disc per evitar afectar dades originals.  
+- Assegureu-vos de **documentar detalladament** cada pas i de conservar les captures d’imatge per a la posteritat i l’auditoria.  
+- Quan investigueu mesures per protecció del GRUB, incloeu **referències fiables** (manuals oficials, documentació de distribucions, guies de ciberseguretat) i anoteu les instruccions exactes aplicades.
 
